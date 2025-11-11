@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abdalrhman Abdalnabe | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Poppins', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
+  <style>
+      @media print {
+        /* General Setup */
+        body {
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+          background-color: #fff !important;
+          color: #000 !important;
+          font-family: 'Times New Roman', serif;
+          font-size: 12pt;
+        }
+
+        /* Hide non-essential elements */
+        .no-print, header, .theme-toggle-button, .hero-action-buttons, .profile-image-container {
+          display: none !important;
+        }
+
+        /* Reset main layout */
+        main {
+          padding: 1in !important;
+          margin: 0 !important;
+          width: 100% !important;
+          max-width: 100% !important;
+        }
+        
+        section {
+            padding: 0.5rem 0 !important;
+            page-break-inside: avoid;
+        }
+
+        /* Reset typography and colors */
+        * {
+            color: #000 !important;
+            background: transparent !important;
+            box-shadow: none !important;
+            text-shadow: none !important;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Helvetica', 'Arial', sans-serif;
+            page-break-after: avoid;
+        }
+
+        h1 { font-size: 24pt; }
+        h2 { font-size: 18pt; margin-top: 1rem; }
+        h3 { font-size: 14pt; }
+
+        /* Style links to be printable */
+        a, a:visited {
+            text-decoration: underline;
+            color: #0000EE !important;
+        }
+        a[href]:after {
+             content: " (" attr(href) ")";
+             font-size: 9pt;
+             color: #333 !important;
+        }
+        a[href^="mailto:"]:after, a[href^="tel:"]:after, a[href^="https://wa.me"]:after {
+            content: ""; /* Don't show URL for contact links */
+        }
+        .live-deployment-link:after {
+            content: ""; /* Don't show URL for live deployments for cleaner look */
+        }
+
+        /* Reset component-specific styles */
+        .bg-black\/20, .backdrop-blur-lg {
+            border: 1px solid #ddd !important;
+            padding: 1rem !important;
+        }
+
+        #home {
+            min-height: auto !important;
+            text-align: center;
+        }
+
+        #contact .flex {
+            flex-direction: column;
+            align-items: center;
+        }
+        #contact a {
+            text-decoration: none;
+        }
+        #contact a:after {
+            content: "";
+        }
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="font-sans">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

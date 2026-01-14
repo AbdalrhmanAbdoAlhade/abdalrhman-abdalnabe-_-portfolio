@@ -33,7 +33,7 @@ export const contentData = {
       },
       {
         title: "Frameworks & AI",
-        items: "Laravel 12, Gin (Go), Google Gemini AI, LangChain",
+        items: "Laravel 12, Gin (Go), LangChain",
       },
       {
         title: "Architecture",

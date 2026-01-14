@@ -52,7 +52,7 @@ export const contentData = {
       items: "Agile/Scrum, Unit Testing, Clean Code, OOP, SOLID Principles",
     },
   ]
-}
+
   },
   achievements: {
     title: "✨ Engineering Excellence",

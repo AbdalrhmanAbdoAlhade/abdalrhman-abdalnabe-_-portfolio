@@ -17,7 +17,7 @@ const contentData = {
     subtitle: "⚙️ Building the Future with Security and Efficiency | Scalable & Secure APIs",
     description: "I am Abdalrhman Abdalnabe, a back-end systems developer and designer specializing in building High Availability APIs and Microservices. I aim to transform complex requirements into clean, secure, and scalable software solutions to support business growth. Focusing on: Performance Tuning, Clean Code Architecture, and Security.",
     cvButton: "Download CV",
-    profileImage: "https://api.zh-coding.com/storage/team_members/oZofZr7QBi2RtDEOseGdoAtgcgH5AIJQ6SG1IvSp.png",
+    profileImage: "https://apizh.sabia-cd.sa/storage/team_members/uKccGASE9gpQs4mkkGbNJpRXwhxq9B1LJbyCfn6f.png",
     socials: {
         github: "https://github.com/AbdalrhmanAbdoAlhade",
         linkedin: "https://www.linkedin.com/in/abdalrhman-abdalnabe-6673312ba",

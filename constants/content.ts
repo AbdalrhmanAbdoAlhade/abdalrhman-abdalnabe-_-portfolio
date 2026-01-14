@@ -24,15 +24,35 @@ export const contentData = {
         email: "mailto:abdo.king22227@gmail.com"
     }
   },
-  techStack: {
-    title: "🚀 Technical Arsenal",
-    categories: [
-      { title: "Programming Languages", items: "PHP 8.4, Go, Python, TypeScript" },
-      { title: "Frameworks & AI", items: "Laravel 12, Gin (Go), Google Gemini AI, LangChain" },
-      { title: "Architecture", items: "PostgreSQL, MySQL, Redis, Microservices, RESTful APIs" },
-      { title: "Security & DevOps", items: "Laravel Sanctum, OAuth 2.0, Docker, CI/CD, RBAC" },
-      { title: "Dev Tools", items: "Git, Postman, Linux, Composer, Makefiles" },
-    ]
+{
+  title: "🚀 Technical Arsenal",
+  categories: [
+    {
+      title: "Programming Languages",
+      items: "PHP 8.4, Go, Python, TypeScript",
+    },
+    {
+      title: "Frameworks & AI",
+      items: "Laravel 12, Gin (Go), Google Gemini AI, LangChain",
+    },
+    {
+      title: "Architecture",
+      items: "PostgreSQL, MySQL, Redis, Microservices, RESTful APIs",
+    },
+    {
+      title: "Security & DevOps",
+      items: "Laravel Sanctum, OAuth 2.0, Docker, CI/CD, RBAC",
+    },
+    {
+      title: "Dev Tools",
+      items: "Git, Postman, Linux, Composer, Makefiles",
+    },
+    {
+      title: "Professional Methodologies",
+      items: "Agile/Scrum, Unit Testing, Clean Code, OOP, SOLID Principles",
+    },
+  ]
+}
   },
   achievements: {
     title: "✨ Engineering Excellence",

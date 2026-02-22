@@ -77,7 +77,7 @@ export const contentData = {
       title: "🌐 Live Ecosystem & Deployments",
       description: "Sample of live systems where I have architected and maintained the back-end infrastructure:",
       sites: [
-        'alahrm.com', 'edustationsegy.com', 'playpro-site.netlify.app', 'growth-fast.netlify.app', 
+        'gefco.sa', 'alahrm.com', 'edustationsegy.com', 'playprodammam.com', 'growth-fast.netlify.app', 
         'noverys-cars.netlify.app', 'neocampus-site.netlify.app', 'linktree.souqna-sa.com', 
         'linktree.faz-an.com', 'devotix-media.faz-an.com', 'lavanderesto.com', '3asaf-perfumes.netlify.app', 
         'abdaealmasi.store', 'aflaj-cd.sa', 'aflaj-cd.store', 'aflajaskhia.sa', 'ahsinalhadith.sa', 
